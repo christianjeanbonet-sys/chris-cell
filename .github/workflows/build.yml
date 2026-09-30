@@ -14,6 +14,7 @@ jobs:
       - name: Extrair projeto
         run: |
           unzip -o CHRIS_CELL_ANDROID.zip
+          cp gradle.properties CHRIS_CELL_ANDROID/gradle.properties
           cd CHRIS_CELL_ANDROID
 
       - name: Instalar Java 17

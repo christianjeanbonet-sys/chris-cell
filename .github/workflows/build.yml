@@ -13,7 +13,7 @@ jobs:
 
       - name: Extrair projeto
         run: |
-          unzip -o CHRIS_CELL_ANDROID.zip
+          unzip -o CHRIS_CELL_ANDROID_MODERNO.zip
           echo "android.useAndroidX=true" > CHRIS_CELL_ANDROID/gradle.properties
 
       - name: Instalar Java 17

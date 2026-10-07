@@ -67,6 +67,41 @@ body.catalog-mode .empty{color:#9fb1b8}
 .photoSlide img{background:#071117}
 @media(max-width:600px){.loginLanding{min-height:690px;padding:22px 14px}.landingBrand .bigApple{width:50px;height:50px}.landingBrand .bigAndroid{width:56px;height:56px}.landingName{font-size:34px}.sub{margin-left:39px}.brand{font-size:22px}.adminBtn{font-size:10px;padding:10px}.grid{gap:12px}}
 </style>
+<style>
+/* CHRIS CELL — visual final based on approved reference */
+:root{--neon:#00f0a6;--neon2:#18d8b5;--deep:#02080e;--panel:#07151d;--line:rgba(0,240,166,.22);--muted2:#9ab0ba}
+html,body{background:#02080e!important;color:#f4f8f9}
+header{background:linear-gradient(135deg,#02080e 0%,#06141d 45%,#063f3c 100%)!important;border-bottom:1px solid var(--line)!important}
+body.catalog-mode header{background:linear-gradient(135deg,#02080e,#06151c 48%,#063d38)!important}
+main{max-width:1120px!important}
+.accessGate{max-width:1120px!important;margin:18px auto 40px!important;padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important}
+.loginLanding{min-height:680px!important;border-radius:30px!important;background:radial-gradient(circle at 14% 20%,rgba(0,240,166,.16),transparent 26%),radial-gradient(circle at 88% 22%,rgba(61,220,132,.14),transparent 24%),linear-gradient(145deg,#02090f 0%,#06151e 52%,#073d3a 100%)!important;border:1px solid rgba(0,240,166,.24)!important;box-shadow:0 28px 80px rgba(0,0,0,.55)!important;padding:42px 22px 28px!important;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.loginLanding:before{content:"";position:absolute;width:330px;height:330px;border-radius:50%;right:-150px;top:-120px;background:rgba(0,240,166,.12);filter:blur(10px);pointer-events:none}
+.loginLanding:after{content:"";position:absolute;width:260px;height:260px;border-radius:50%;left:-130px;bottom:-120px;background:rgba(61,220,132,.08);filter:blur(12px);pointer-events:none}
+.landingBrand{position:relative;z-index:2;display:flex!important;align-items:center!important;justify-content:center!important;gap:18px!important;margin:0 auto 12px!important}
+.bigApple{width:74px!important;height:74px!important;color:#fff!important;filter:drop-shadow(0 0 12px rgba(255,255,255,.15))}
+.landingName{font-size:58px!important;line-height:.78!important;letter-spacing:-3px!important;font-weight:950!important;color:#fff!important;text-shadow:0 3px 20px rgba(0,0,0,.5)!important}
+.landingName span{color:#fff!important}.landingName b{color:var(--neon)!important}
+.bigAndroid{width:76px!important;height:76px!important;color:#3ddc84!important;filter:drop-shadow(0 0 16px rgba(61,220,132,.35))!important}
+.landingSub{text-align:center;color:#a9c2c7!important;font-size:10px!important;letter-spacing:3px!important;margin-top:10px!important}
+.landingPhrase{position:relative;z-index:2;text-align:center!important;color:#dffef8!important;font-size:14px!important;letter-spacing:.2px!important;margin:16px auto 26px!important;max-width:520px!important}
+.loginCard{position:relative!important;z-index:3!important;width:min(100%,430px)!important;margin:0 auto!important;background:rgba(3,12,18,.94)!important;border:1px solid rgba(255,255,255,.14)!important;border-radius:24px!important;padding:24px!important;box-shadow:0 20px 55px rgba(0,0,0,.55)!important;backdrop-filter:blur(10px)!important}
+.loginCard h2{font-size:23px!important;color:#fff!important}.loginCard p{color:#94aab3!important}
+.loginCard input{background:#081923!important;color:#fff!important;border:1px solid #29404a!important;border-radius:12px!important;padding:14px!important}
+.loginCard button{background:linear-gradient(135deg,#00f0a6,#13d3b4)!important;color:#001a14!important;border-radius:12px!important;font-weight:950!important}
+.landingBadges{position:relative;z-index:2}.landingBadge{border-color:rgba(0,240,166,.24)!important;background:rgba(0,240,166,.07)!important;color:#d7fff5!important}
+/* Client catalog */
+body.catalog-mode{background:#02080e!important}
+body.catalog-mode .hero{background:linear-gradient(145deg,#04121a,#062827)!important;border:1px solid rgba(0,240,166,.2)!important;color:#fff!important;box-shadow:0 20px 55px rgba(0,0,0,.45)!important}
+body.catalog-mode .heroPhrase{color:var(--neon)!important}
+body.catalog-mode .controls input,body.catalog-mode .controls select{background:#07151d!important;color:#eafcf8!important;border-color:#28414a!important}
+body.catalog-mode .card{background:#07151d!important;border-color:rgba(0,240,166,.12)!important;color:#fff!important;box-shadow:0 14px 35px rgba(0,0,0,.4)!important}
+body.catalog-mode .photo{background:#061117!important}
+body.catalog-mode .body h3{color:#fff!important}.catalog-mode .meta{color:#9fb1b8!important}.catalog-mode .price{color:#fff!important}.catalog-mode .tag.apple{background:#e9eef0!important;color:#101418!important}.catalog-mode .tag.android{background:#103b2b!important;color:#bfffe0!important}
+body.catalog-mode .interest{background:linear-gradient(135deg,#00ef9f,#11cbb0)!important;color:#001a14!important}
+body.catalog-mode .clientTimer{display:flex!important}
+@media(max-width:600px){.loginLanding{min-height:calc(100vh - 120px)!important;padding:28px 14px 22px!important}.landingBrand{gap:10px!important}.bigApple,.bigAndroid{width:52px!important;height:52px!important}.landingName{font-size:42px!important;letter-spacing:-2px!important}.landingSub{font-size:8px!important;letter-spacing:2px!important}.loginCard{padding:20px!important}}
+</style>
 </head>
 <body>
 <header><div class="top"><div class="brandBlock"><div class="brandVisual"><svg class="headerApple" viewBox="0 0 24 24" aria-label="Apple"><path fill="currentColor" d="M16.7 12.7c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.7-1.7-3.3-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-3-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.7 2.3 2.9 2.3 1.2-.1 1.6-.7 3-.7s1.8.7 3 .7c1.2 0 2-.1 2.8-1.2.9-1.3 1.3-2.6 1.3-2.7-.1 0-2.6-1-2.6-4.4zM14.6 6.2c.6-.8 1-1.9.9-3-.9 0-2 .6-2.7 1.3-.6.7-1.1 1.8-1 2.9 1 .1 2-.5 2.8-1.2z"/></svg><div class="brand"><span>HRIS</span><br><b>CELL</b></div><svg class="headerAndroid" viewBox="0 0 64 64" aria-label="Android"><path fill="currentColor" d="M20 25h24v24H20z"/><path fill="currentColor" d="M17 27h-4v17h4zm34 0h-4v17h4zM23 20l-3-5 2-1 3 5c4-2 10-2 14 0l3-5 2 1-3 5c3 2 5 5 5 9H18c0-4 2-7 5-9zm4-1a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM23 49h5v8h-5zm13 0h5v8h-5z"/></svg></div><div class="sub">CELULARES E ACESSÓRIOS</div></div><button class="adminBtn" onclick="openLogin('admin')">🔐 Área do administrador</button></div></header>
@@ -143,6 +178,23 @@ let phones=[];
 let currentUser=null;
 let editing=null;
 let selectedPhotos=[];
+
+function normalizePhotos(raw){
+  let arr=[];
+  if(Array.isArray(raw)) arr=raw;
+  else if(typeof raw==='string'){
+    try{const parsed=JSON.parse(raw); arr=Array.isArray(parsed)?parsed:[raw]}catch(e){arr=raw?raw.split(',').map(x=>x.trim()).filter(Boolean):[]}
+  }
+  return arr.map(v=>{
+    let s=String(v||'').trim();
+    if(!s) return '';
+    if(s.startsWith('data:')||/^https?:\/\//i.test(s)) return s;
+    s=s.replace(/^\/+/, '').replace(/^public\//,'');
+    s=s.replace(/^product-images\//,'');
+    return sb.storage.from('product-images').getPublicUrl(s).data.publicUrl;
+  }).filter(Boolean).slice(0,10);
+}
+
 function money(v){return Number(v||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'})}
 function osBadge(os){
  if(os==='Android') return '<span class="tag android"><svg class="osPublicIcon" viewBox="0 0 64 64" aria-hidden="true"><path fill="#3DDC84" d="M20 25h24v24H20z"/><path fill="#3DDC84" d="M17 27h-4v17h4zm34 0h-4v17h4zM23 20l-3-5 2-1 3 5c4-2 10-2 14 0l3-5 2 1-3 5c3 2 5 5 5 9H18c0-4 2-7 5-9zm4-1a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm10 0a2 2 0 1 0 0 4 2 2 0 0 0-4 0zM23 49h5v8h-5zm13 0h5v8h-5z"/></svg>Android</span>';
@@ -233,7 +285,7 @@ async function loadPhones(){
   phones=(data||[]).map(row=>{
     let specs={};
     try{specs=JSON.parse(row.especificacoes||'{}')}catch(e){}
-    return {id:row.id,model:row.modelo||'',os:specs.os||'iPhone',storage:specs.storage||'',color:specs.color||'',battery:specs.battery||'',condition:specs.condition||'Usado',price:row.preco||0,desc:row.observacoes||specs.desc||'',available:row.status!=='Vendido',photos:(Array.isArray(row.fotos)?row.fotos:[]).map(v=>{const s=String(v||''); if(/^https?:\/\//i.test(s)||s.startsWith('data:')) return s; return sb.storage.from('product-images').getPublicUrl(s.replace(/^\//,'' )).data.publicUrl;})};
+    return {id:row.id,model:row.modelo||'',os:specs.os||'iPhone',storage:specs.storage||'',color:specs.color||'',battery:specs.battery||'',condition:specs.condition||'Usado',price:row.preco||0,desc:row.observacoes||specs.desc||'',available:row.status!=='Vendido',photos:normalizePhotos(row.fotos)};
   });
   render();
   applyAccessGate();
